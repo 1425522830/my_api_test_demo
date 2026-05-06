@@ -1,0 +1,20 @@
+login_cases:
+  - name: "正确账号密码"
+    username: "emilys"
+    password: "emilyspass"
+    expected_status: 200
+
+  - name: "错误的用户名"
+    username: "wronguser"
+    password: "emilyspass"
+    expected_status: 400
+
+  - name: "错误的密码"
+    username: "emilys"
+    password: "wrongpass"
+    expected_status: 400
+
+  - name: "空用户名"
+    username: ""
+    password: "emilyspass"
+    expected_status: 400

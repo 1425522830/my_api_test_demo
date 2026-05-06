@@ -1,0 +1,15 @@
+# 编译缓存和Python环境
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv/
+venv/
+# allure报告目录
+allure-report/
+allure-results/
+# IDE配置
+.idea/
+.vscode/
+# 系统文件
+.DS_Store
+Thumbs.db
